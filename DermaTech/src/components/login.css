@@ -16,11 +16,12 @@ body, html {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: url('/src/assets/image.png') center center / cover no-repeat;
+  background: url('/src/assets/kderma2.jpg') center center / cover no-repeat;
   display: flex;
   align-items: center;
   padding: 0;
   overflow: hidden;
+  justify-content: left;
 }
 
 
