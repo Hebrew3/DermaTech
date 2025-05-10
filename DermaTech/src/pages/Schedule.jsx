@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { IonIcon } from 'react-ion-icon';
+import '../components/schedule.css';
 
 const SchedulePage = () => {
   const [search, setSearch] = useState('');
