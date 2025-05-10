@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../components/login.css';
 
-const FlipCard = ({ onLogin, onRegister }) => {
+const Login = ({ onLogin, onRegister }) => {
   const [flipped, setFlipped] = useState(false);
 
   const handleFlip = () => setFlipped(!flipped);
@@ -75,4 +75,4 @@ const FlipCard = ({ onLogin, onRegister }) => {
   );
 };
 
-export default FlipCard;
+export default Login;
